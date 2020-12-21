@@ -2,7 +2,7 @@
 
 **functions**:
 
-1.get topology of swithes and hosts under controll
+1.get topology of local network
 
 2.avoid broadcast storm
 
