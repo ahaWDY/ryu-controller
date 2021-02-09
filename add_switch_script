@@ -1,0 +1,6 @@
+py net.addSwitch("s7")
+py net.addHost("h7",mac="00:00:00:00:00:07",ip="192.168.1.7/16")
+py addLink(s1,s7)
+py addHost(s7,h7)
+py net.build()
+py s7.start([c1])
